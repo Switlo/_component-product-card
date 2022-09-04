@@ -1,0 +1,109 @@
+:root {
+    --darc-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --wite: hsl(0, 0%, 100%)
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  max-width: 375px;
+  background-color: var(--cream);
+}
+
+container {
+  display: block;
+  margin: 15px;
+  background-color: var(--wite);
+  border-radius: 9px;  
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.product-info {
+  padding: 0 20px 20px;
+}
+
+.perfume {
+  font-size: 12px;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  margin: 5px 0;
+  color: var(--very-dark-blue);  
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-grayish-blue);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+.new-price {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--darc-cyan);
+ }
+.old-price {
+  position: relative;
+  top: -10px;
+  text-decoration: line-through;
+  font-size: 13px;
+  padding-left: 15px;  
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--darc-cyan);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 13px 100px;
+  border: 1px solid var(--darc-cyan);
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+  margin: 0 auto;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 15px;
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
+
+footer {
+    font-size: 12px;
+    margin: 5px; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);    
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #3a068d;
+  }
+
+  footer a:hover {
+     text-decoration: underline;
+  }
