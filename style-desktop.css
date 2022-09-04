@@ -10,24 +10,111 @@ font-family: 'Fraunces', serif; */
 }
 
 body {
-    max-width: 1440px;
-    background-color: var(--cream);
+  max-width: 1440px;
+  background-color: var(--cream);
+  margin: 50px 0;
 }
 
+container {
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto auto;
+  background-color: var(--wite);
+  border-radius: 9px;
+}
 
+img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.product-info {
+  padding: 20px 30px;
+}
+
+.perfume {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  margin: 5px 0;
+  color: var(--very-dark-blue);
+  font-size: 35px;
+  line-height: 1;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-grayish-blue);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+
+.new-price {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--darc-cyan);
+}
+
+.old-price {
+  position: relative;
+  top: -10px;
+  text-decoration: line-through;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background: var(--darc-cyan);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 13px 90px;
+  border: 1px solid var(--darc-cyan);
+  border-radius: 8px;
+  transition: all 200ms ease-in-out;
+  margin: 0 auto;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  width: 15px;
+  position: relative;
+  top: 3px;
+  left: -5px;
+}
 
 footer {
-    font-size: 12px;
-    padding: 5px;
-    margin: 5px; 
+  font-size: 12px;
+  margin: 15px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-grayish-blue);
+}
 
-  }
+footer a {
+  text-decoration: none;
+  color: #3a068d;
+}
 
-  footer a {
-    text-decoration: none;
-    color: #3a068d;
-  }
-
-  footer a:hover {
-     text-decoration: underline;
-  }
+footer a:hover {
+  text-decoration: underline;
+}
