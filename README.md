@@ -9,10 +9,6 @@ I should be able to:
 - View the optimal layout depending on my device's screen size
 - See hover and focus states for interactive elements
 
-### Screenshot
-
-[Preview](.image/desktop-preview.jpg)
-
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Switlo/_component-product-card)
