@@ -37,7 +37,8 @@ img {
 h1 {
   font-family: 'Fraunces', serif;
   margin: 5px 0;
-  color: var(--very-dark-blue);  
+  color: var(--very-dark-blue); 
+  line-height: 1;
 }
 
 p {
@@ -106,4 +107,21 @@ footer {
 
   footer a:hover {
      text-decoration: underline;
+  }
+
+  @media (max-width: 300px) {
+    button {
+      font-size: 12px;
+      padding: 13px 58px;
+  }
+    footer {
+      font-size: 10px;
+      margin: 3px;
+    }
+}
+
+@media (max-width: 360px) {
+  button {
+    font-size: 13px;
+    padding: 13px 90px;
   }
