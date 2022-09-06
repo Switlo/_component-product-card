@@ -7,19 +7,21 @@
 }
 
 body {
-  display: flexbox;
   max-width: 1440px;
   background-color: var(--cream);
-  margin: 50px 0;
+  margin: 50px 15px;
 }
 
 container {
-  max-width: 700px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: auto auto;
+  max-width: 700px; 
+  display: flex;
+  margin: 0 auto;
   background-color: var(--wite);
   border-radius: 9px;
+}
+
+.div-image {
+  flex: 0 1 50%
 }
 
 img {
@@ -30,6 +32,7 @@ img {
 }
 
 .product-info {
+  flex: 0 1 50%;
   padding: 20px 30px;
 }
 
